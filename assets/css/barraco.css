@@ -17,6 +17,11 @@ body {
 
 main {
   flex: 1;
+  z-index: 1;
+}
+
+main figure.logo {
+  margin-left: 45px;
 }
 
 footer {
