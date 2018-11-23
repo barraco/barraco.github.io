@@ -2,43 +2,54 @@
 layout: default
 home: true
 ---
-<div class="columns">
-  <div class="column is-half is-offset-4">
-    <figure class="logo">
-      <img src="https://github.com/barraco/brand-guide/blob/master/assets/png/barraco-512.png?raw=true" />
-    </figure>
-  </div>
-</div>
-
-<div class="columns is-centered">
-  <div class="column is-6">
-    <div class="">
-      <form action="https://obarra.us19.list-manage.com/subscribe/post?u=d5abc82074c3864c5cc1d98bf&amp;id=ed1d4283c5"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-        <p class="has-text-centered has-text-white">
-          Inscreva-se na nossa lista de emails
-        </p>
-        <br>
-        <div class="field is-horizontal">
-          <div class="field-body">
-            <div class="field">
-              <input class="input" type="text" name="NAME" id="mce-NAME" placeholder="Nome" required>
-            </div>
-            <div class="field">
-              <input class="input" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email" required>
-            </div>
-            <div class="field">
-              <input type="submit" value="Confirmar" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
+<div class="hero is-fullheight has-text-white">
+  <div class="hero-head has-text-centered">
+    <div class="container">
+      <div class="level">
+        <div class="level-item">
+          <img style="margin-top: -100px;" width="450" src="https://github.com/barraco/brand-guide/blob/master/assets/png/barraco-512.png?raw=true">
+        </div>
+      </div>
+      <p style="margin-top: -80px; margin-bottom: 70px;">
+        {{ site.description }}
+      </p>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-6">
+            <form action="https://obarra.us19.list-manage.com/subscribe/post?u=d5abc82074c3864c5cc1d98bf&amp;id=ed1d4283c5"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+              <p class="has-text-centered" style="margin-bottom: 20px">
+                Inscreva-se na nossa lista de emails
+              </p>
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+                    <input class="input" type="text" name="NAME" id="mce-NAME" placeholder="Nome" required>
+                  </div>
+                  <div class="field">
+                    <input class="input" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email" required>
+                  </div>
+                  <div class="field">
+                    <input type="submit" value="Confirmar" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  </div>
+                </div>
+              </div>
+              <div id="mce-responses">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d5abc82074c3864c5cc1d98bf_ed1d4283c5"
+                  tabindex="-1" value=""></div>
+            </form>
           </div>
         </div>
-        <div id="mce-responses">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d5abc82074c3864c5cc1d98bf_ed1d4283c5"
-            tabindex="-1" value=""></div>
-      </form>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <br><br><br>
+        {% include footer.html %}
     </div>
   </div>
 </div>
