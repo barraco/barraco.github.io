@@ -1,0 +1,1 @@
+particlesJS.load('particle-canvas', 'assets/configs/particles.json');
