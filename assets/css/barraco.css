@@ -45,7 +45,7 @@ a.simple {
   text-decoration: underline;
 }
 
-a {
+p.description a {
   color: #209cee !important;
 }
 
