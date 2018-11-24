@@ -45,6 +45,10 @@ a.simple {
   text-decoration: underline;
 }
 
+a {
+  color: #209cee !important;
+}
+
 a.simple:hover {
   text-decoration: none;
 }
