@@ -3,7 +3,7 @@ html {
 }
 
 #particle-canvas {
-  background: #1c1c1c;
+  background: #000;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -24,6 +24,11 @@ main figure.logo {
   margin-left: 45px;
 }
 
+main p.description a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 footer {
   background: none !important;
   padding: 0 0 1rem !important;
@@ -38,4 +43,8 @@ footer p>strong {
 a.simple {
   color: white;
   text-decoration: underline;
+}
+
+a.simple:hover {
+  text-decoration: none;
 }
